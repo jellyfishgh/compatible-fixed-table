@@ -1,0 +1,35 @@
+{
+  "name": "compatible-fixed-table",
+  "version": "1.0.0",
+  "description": "Compatible fixed table on mobile device",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "parcel -p 8080 watch index.html --open --out-dir dist/dev",
+    "build": "cross-env NODE_ENV=production parcel build index.html --out-dir dist/parcel --public-url /parcel --no-source-maps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jellyfishgh/compatible-fixed-table.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jellyfishgh/compatible-fixed-table/issues"
+  },
+  "homepage": "https://github.com/jellyfishgh/compatible-fixed-table#readme",
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.0.0",
+    "cross-env": "^5.2.0",
+    "less": "^3.9.0",
+    "parcel-bundler": "^1.12.3",
+    "pug": "^2.0.4",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "dependencies": {
+    "frappe-datatable": "^1.13.5",
+    "vue": "^2.6.10",
+    "vue-hot-reload-api": "^2.3.3",
+    "vue-router": "^3.0.7"
+  }
+}
